@@ -1,5 +1,5 @@
 {
-  "name": "reach-router-hash",
+  "name": "@zeromake/reach-router-hash",
   "version": "0.1.0",
   "description": "@reach/router support hash mode",
   "main": "dist/index.js",
