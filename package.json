@@ -1,0 +1,70 @@
+{
+  "name": "reach-router-hash",
+  "version": "0.1.0",
+  "description": "@reach/router support hash mode",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeromake/reach-router-hash.git"
+  },
+  "keywords": [
+    "router",
+    "hash"
+  ],
+  "author": "zeromake <a390720046@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeromake/reach-router-hash/issues"
+  },
+  "homepage": "https://github.com/zeromake/reach-router-hash#readme",
+  "peerDependencies": {
+    "@reach/router": "1.x",
+    "hash-source": "1.x"
+  },
+  "devDependencies": {
+    "@reach/router": "^1.2.1",
+    "@types/reach__router": "^1.2.4",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "csstype": "^2.6.6",
+    "hash-source": "^1.0.4",
+    "jest": "^24.8.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-uglify": "^6.0.2",
+    "rollup-typescript": "^1.2.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3",
+    "uglify-es": "^3.3.9"
+  },
+  "jest": {
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.ts"
+    ],
+    "setupFiles": [],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$"
+  }
+}

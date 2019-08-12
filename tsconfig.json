@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "esnext", // 目标代码模块方式
+      "outDir": "build", // 输出目录
+      "sourceMap": true,
+      "strict": true // TS严格模式
+    },
+    "exclude": [
+      "node_modeles" // 不转换 node_modeles
+    ],
+    "files": [
+      "src/index.ts"
+    ]
+}
+
